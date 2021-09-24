@@ -49,12 +49,8 @@ def process_str(_input):
     for i, group in enumerate(grouped_by_3):
         space = "" if i == 0 else " "
         num_str += space + get_by_3(group) + " " + p[i]
-    #print(p)
+    # print(p)
     return num_str
-
-
-def get_int(_input):
-    raise NotImplementedError
 
 
 def group_by_3(_input: str):
@@ -68,14 +64,14 @@ def group_by_3(_input: str):
             _str = ""
 
     r = _list_str[::-1]
-    #print("groupage", r)
+    # print("groupage", r)
     return r
 
 
 def decompose_num(_input: str):
     _input_len = len(_input)
     r = [f"{c}*{10**(_input_len - i - 1)}" for i, c in enumerate(_input)]
-    #print("decomposition", r)
+    # print("decomposition", r)
     return r
 
 
@@ -108,7 +104,7 @@ def get_by_3(_input: str):
                 _str += et + num_letters[p]
             else:
                 _str += space + num_letters[p]
-    #print("str of group:", _str)
+    # print("str of group:", _str)
     return _str
 
 
@@ -120,3 +116,7 @@ def get_str(_input):
         return process_str(_input)
     except Exception:
         raise Exception
+
+
+def get_int(_input):
+    raise NotImplementedError
