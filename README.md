@@ -18,12 +18,13 @@ Example: 1101 is translated `un mille cent et un` instead of `mille cent un`.
 
 ## Example
 
-`
+```txt
 
 1     => un
 13    => treize
 628   => six cent vingt huit
-`
+
+```
 
 ## Usage
 
