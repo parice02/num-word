@@ -39,7 +39,7 @@ print(get_str("8400"))
 
 ## Contribution
 
-Any contribution are welcome.
+Any contributions are welcome.
 
 ## Author
 
