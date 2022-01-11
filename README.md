@@ -1,6 +1,6 @@
 # num-word
 
-An simple python module to convert numbers in words or words in numbers. **Only support french**.
+A simple python module to convert numbers in words or words in numbers. **Only support french**.
 
 **Need improvement, some numbers are mis-translated**.
 Example: 1101 is translated `un mille cent et un` instead of `mille cent un`.
@@ -11,6 +11,7 @@ Example: 1101 is translated `un mille cent et un` instead of `mille cent un`.
 - [x] implement numbers to words
 - [-] 17, 18, 19 (construct these values dynamically)
 - [-] implement words to numbers
+- [-] make it as a python package
 
 ## Installation
 
@@ -42,5 +43,5 @@ Any contribution are welcome.
 
 ## Author
 
-[Muhammed Zeba's Github](https://github.com/parice02) | 
+[Muhammed Zeba's Github](https://github.com/parice02) |
 [Muhammed Zeba's Twitter](https://twitter.com/parice02)
